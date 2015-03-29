@@ -1,0 +1,12 @@
+<Context>
+	<Resource
+		name = "jdbc/MovieSocialNetWorkDB"
+		auth = "container"
+		type = "javax.sql.DataSource"
+		maxActive = "50"
+		maxIdle = "1000"
+		maxWait = "10000"
+		username = "jingyi"	password = "123456"
+		driverClassName = "com.mysql.jdbc.Driver"
+		url = "jdbc:mysql://localhost:3306/movieSocialNetworkDataSource"/>
+</Context>
